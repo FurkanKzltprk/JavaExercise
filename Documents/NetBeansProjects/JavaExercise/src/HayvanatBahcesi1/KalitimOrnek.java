@@ -13,7 +13,9 @@ public class KalitimOrnek{
         kopek.yemekVer();
         koyun.yemekVer();
         at.yemekVer();
-        System.out.println("");
+        koyun.asiYap();
+        System.out.println("--------------------");
+        kopek.asiYap();
         
         
         

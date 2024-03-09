@@ -15,7 +15,7 @@ public class Kopek extends Hayvan{
 
     @Override
     public void asiYap() {
-        super.asiYap(); 
+        System.out.println("kuduz asisi yapildi");
     }
 
     @Override
