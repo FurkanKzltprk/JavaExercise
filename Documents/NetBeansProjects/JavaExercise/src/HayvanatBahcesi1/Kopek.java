@@ -12,6 +12,17 @@ public class Kopek extends Hayvan{
     public void egitimVer(){
         System.out.println("Egitim verildi.");
     }
+
+    @Override
+    public void asiYap() {
+        super.asiYap(); 
+    }
+
+    @Override
+    public void yemekVer() {
+        System.out.println("Et verildi.");
+    }
+    
     
     
     

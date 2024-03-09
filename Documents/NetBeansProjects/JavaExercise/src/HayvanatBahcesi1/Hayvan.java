@@ -19,6 +19,9 @@ public class Hayvan {
     public void besle(String yemek ){
         System.out.println("Hayvan beslendi: "+yemek+" yedi.");
         
+    } 
+    public void yemekVer(){
+        System.out.println("Yemek verildi.");
     }
     
 

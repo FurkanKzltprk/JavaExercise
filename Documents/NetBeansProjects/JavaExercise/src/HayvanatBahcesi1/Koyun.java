@@ -8,6 +8,11 @@ public class Koyun extends Hayvan {
     public void kırp(){
         System.out.println("yunleri kirpiliyor.");
     }
+
+    @Override
+    public void yemekVer() {
+        System.out.println("Ot verildi.");
+    }
     
     
 

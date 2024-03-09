@@ -6,21 +6,16 @@ public class KalitimOrnek{
 
     
     public static void main(String args[]) {
+        Kopek kopek = new Kopek();
+        Koyun koyun = new Koyun();
+        At at = new At();
         
-//        Kopek kopek = new Kopek();
-//        kopek.egitimVer();
-//        kopek.temizle();
-//        kopek.asiYap();
+        kopek.yemekVer();
+        koyun.yemekVer();
+        at.yemekVer();
         
-//            Koyun koyun = new Koyun();
-//            koyun.kırp();
-//            koyun.asiYap();
-//            koyun.besle("Ot");
-
-//            At at = new At();
-//            at.asiYap();
-//            at.egitimVer();
-//            at.besle("Yulaf ve saman");   
+        
+        
             
        
     }
