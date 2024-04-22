@@ -37,7 +37,7 @@ public class Main {
          
          OgretimUyesi o = new OgretimUyesi("EEM", "Hoca", "EEM102", "MEHMET kaya", "dsad.q@gmail.com", "1328123");
          System.out.println(o.getBolum());
-         o.giris();
+         o.giris(); //kullanım
         
     }
     
