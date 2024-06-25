@@ -9,11 +9,8 @@ public class recKarSayiBul {
         } else if (S.charAt(i) == c) {
             return 1 + karsay(S, c, i + 1);
         } else {
-
             return 0 + karsay(S, c, i + 1);
-
         }
-
     }
 
     public static void main(String args[]) {
