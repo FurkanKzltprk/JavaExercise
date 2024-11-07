@@ -58,7 +58,7 @@ public class StackYapisi {
     void print()
     {
         if(isEmpty()){
-            System.out.println("Stack bos yazdirilacak bir sey yok .");
+            System.out.println("Stack bos yazdirilacak bir sey yok .!");
         }else{
             Node temp = top;
             
